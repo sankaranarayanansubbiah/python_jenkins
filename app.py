@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Hello, World! This is my Flask web application running on my machine.'
+    return 'Hello, World! This is my Flask web application running on my EC2.'
 
 if __name__ == '__main__':
     # Change the port number to your desired port
